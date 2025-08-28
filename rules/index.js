@@ -1,8 +1,8 @@
-import {missingLabelRule} from "./missingLabelRule.js";
-import {smallTouchTargetRule} from "./smallTouchTargetRule.js";
-import {duplicateLabelRule} from "./duplicateLabelRule.js";
-import {focusableWithoutLabelRule} from "./focusableWithoutLabelRule.js";
-import {overlappingElementsRule} from "./overlappingElementsRule.js";
+import {missingLabelRule} from "./node/missingLabelRule.js";
+import {smallTouchTargetRule} from "./node/smallTouchTargetRule.js";
+import {duplicateLabelRule} from "./node/duplicateLabelRule.js";
+import {focusableWithoutLabelRule} from "./node/focusableWithoutLabelRule.js";
+import {overlappingElementsRule} from "./multinode/overlappingElementsRule.js";
 
 export const nodeRules = [
   missingLabelRule,
