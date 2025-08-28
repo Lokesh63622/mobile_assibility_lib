@@ -1,8 +1,10 @@
 export function audioControlRule(nodes) {
+
+  const nodeArray = nodes ? (Array.isArray(nodes) ? nodes : [nodes]) : [];
   // nodes = list of <audio> or <video> elements
   const results = [];
 
-  nodes.forEach((node) => {
+  nodeArray.forEach((node) => {
     if (node.tagName === "AUDIO" || node.tagName === "VIDEO") {
       const autoPlay = node.attributes?.autoplay === true;
       const duration = node.duration || 0;
