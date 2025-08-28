@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<hierarchy rotation="0">
+      <node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+            package="io.appium.android.apis" content-desc="" checkable="false" checked="false"
+            clickable="false" enabled="true" focusable="false" focused="false" scrollable="false"
+            long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2400]">
+            <node index="0" text="" resource-id="android:id/decor_content_parent"
+                  class="android.view.ViewGroup" package="io.appium.android.apis" content-desc=""
+                  checkable="false" checked="false" clickable="false" enabled="true"
+                  focusable="false" focused="false" scrollable="false" long-clickable="false"
+                  password="false" selected="false" bounds="[0,0][1080,2268]">
+                  <node index="0" text="" resource-id="android:id/action_bar_container"
+                        class="android.widget.FrameLayout" package="io.appium.android.apis"
+                        content-desc="" checkable="false" checked="false" clickable="false"
+                        enabled="true" focusable="false" focused="false" scrollable="false"
+                        long-clickable="false" password="false" selected="false"
+                        bounds="[0,107][1080,275]">
+                        <node index="0" text="" resource-id="android:id/action_bar"
+                              class="android.view.ViewGroup" package="io.appium.android.apis"
+                              content-desc="" checkable="false" checked="false" clickable="false"
+                              enabled="true" focusable="false" focused="false" scrollable="false"
+                              long-clickable="false" password="false" selected="false"
+                              bounds="[0,107][1080,275]">
+                              <node index="0" text="API Demos" resource-id=""
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[48,150][348,231]" />
+                        </node>
+                  </node>
+                  <node index="1" text="" resource-id="android:id/content"
+                        class="android.widget.FrameLayout" package="io.appium.android.apis"
+                        content-desc="" checkable="false" checked="false" clickable="false"
+                        enabled="true" focusable="false" focused="false" scrollable="false"
+                        long-clickable="false" password="false" selected="false"
+                        bounds="[0,275][1080,2268]">
+                        <node index="0" text="" resource-id="android:id/list"
+                              class="android.widget.ListView" package="io.appium.android.apis"
+                              content-desc="" checkable="false" checked="false" clickable="false"
+                              enabled="true" focusable="true" focused="true" scrollable="false"
+                              long-clickable="false" password="false" selected="false"
+                              bounds="[0,275][1080,2268]">
+                              <node index="0" text="Access'ibility" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Access'ibility" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,275][1080,419]" />
+                              <node index="1" text="Accessibility" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Accessibility" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,422][1080,566]" />
+                              <node index="2" text="Animation" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Animation" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,569][1080,713]" />
+                              <node index="3" text="App" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="App" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,716][1080,860]" />
+                              <node index="4" text="Content" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Content" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,863][1080,1007]" />
+                              <node index="5" text="Graphics" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Graphics" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1010][1080,1154]" />
+                              <node index="6" text="Media" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Media" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1157][1080,1301]" />
+                              <node index="7" text="NFC" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="NFC" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1304][1080,1448]" />
+                              <node index="8" text="OS" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="OS" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1451][1080,1595]" />
+                              <node index="9" text="Preference" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Preference" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1598][1080,1742]" />
+                              <node index="10" text="Text" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Text" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1745][1080,1889]" />
+                              <node index="11" text="Views" resource-id="android:id/text1"
+                                    class="android.widget.TextView" package="io.appium.android.apis"
+                                    content-desc="Views" checkable="false" checked="false"
+                                    clickable="false" enabled="true" focusable="false"
+                                    focused="false" scrollable="false" long-clickable="false"
+                                    password="false" selected="false" bounds="[0,1892][1080,2036]" />
+                        </node>
+                  </node>
+            </node>
+            <node index="1" text="" resource-id="android:id/statusBarBackground"
+                  class="android.view.View" package="io.appium.android.apis" content-desc=""
+                  checkable="false" checked="false" clickable="false" enabled="true"
+                  focusable="false" focused="false" scrollable="false" long-clickable="false"
+                  password="false" selected="false" bounds="[0,0][1080,107]" />
+            <node index="2" text="" resource-id="android:id/navigationBarBackground"
+                  class="android.view.View" package="io.appium.android.apis" content-desc=""
+                  checkable="false" checked="false" clickable="false" enabled="true"
+                  focusable="false" focused="false" scrollable="false" long-clickable="false"
+                  password="false" selected="false" bounds="[0,2268][1080,2400]" />
+      </node>
+</hierarchy>
