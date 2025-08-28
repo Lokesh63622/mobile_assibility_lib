@@ -5,6 +5,7 @@ export function duplicateLabelRule(node, seenLabels) {
       rule: "duplicate-label",
       description: "Duplicate accessible label found",
       wcag: "WCAG 3.2.4: Consistent Identification",
+      level: "AA",  // 👈 Added level here
       android: "https://developer.android.com/guide/topics/ui/accessibility/apps",
       node: node.className,
       label

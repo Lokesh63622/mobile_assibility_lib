@@ -16,6 +16,7 @@ export function overlappingElementsRule(node, allNodes) {
         description: "Overlapping elements detected",
         wcag: "WCAG 1.4.11: Non-text Contrast",
         android: "https://developer.android.com/guide/topics/ui/accessibility/apps",
+        level: "AA",
         node: node.className,
         bounds: node.bounds,
         overlapsWith: other.className

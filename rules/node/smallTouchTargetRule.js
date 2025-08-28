@@ -8,6 +8,7 @@ export function smallTouchTargetRule(node) {
         rule: "small-touch-target",
         description: "Touch target size is too small (<44x44px)",
         wcag: "WCAG 2.5.5: Target Size",
+        level: "AAA",
         android: "https://developer.android.com/guide/topics/ui/accessibility/apps#touch-target",
         node: node.className,
         bounds: node.bounds
