@@ -113,7 +113,7 @@
 
 
 import { parseStringPromise } from "xml2js";
-import { nodeRules, multiNodeRules } from "./rules/index.js";
+import { nodeRules, multiNodeRules } from './rules/index.js';
 
 export async function runMobileAudit(xmlString) {
   const parsed = await parseStringPromise(xmlString, { attrkey: "attrs" });
