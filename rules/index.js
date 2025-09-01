@@ -94,14 +94,8 @@ import { smallTouchTargetRule } from './Level_AAA/node/smallTouchTargetRule.js';
 import { targetSizeRules } from './Level_AAA/node/targetSizeRules.js';
 import { visualPresentationRule } from './Level_AAA/node/visualPresentationRule.js';
 
-
-
-
-
-
-
-
-
+//talkBackRule 
+import { talkBackRule } from './talkBackRule/talkBackRule.js';
 
 
 export const nodeRules = [
@@ -201,5 +195,8 @@ export const multiNodeRules = [
   sectionHeadingsRule,
   threeFlashesRules,
   timeoutsRule,
-  unusualWordsRule
+  unusualWordsRule,
+  //talk back
+  talkBackRule
 ];
+
