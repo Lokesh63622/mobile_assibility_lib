@@ -3,6 +3,7 @@ import { nodeRules , multiNodeRules } from "./rules/index.js";
 
 export async function runMobileAudit(xmlString) {
   const parsed = await parseStringPromise(xmlString, { attrkey: "attrs" });
+  console.log("cheking parse", parsed);
 
   const nodes = [];
   function traverse(node) {
