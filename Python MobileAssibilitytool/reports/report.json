@@ -1,0 +1,1109 @@
+{
+  "summary": {
+    "critical": 42,
+    "high": 19,
+    "medium": 16,
+    "low": 0
+  },
+  "audit_score": 54,
+  "issues": [
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        34,
+        118,
+        124,
+        208
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/ic_user_img']",
+      "resource_id": "net.one97.paytm:id/ic_user_img",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_1.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        945,
+        118,
+        1035,
+        208
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/update_lottie']",
+      "resource_id": "net.one97.paytm:id/update_lottie",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_2.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.19:1)",
+      "bounds": [
+        67,
+        352,
+        1013,
+        434
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/viewName']",
+      "resource_id": "net.one97.paytm:id/viewName",
+      "contrast": 1.19,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_3.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        68,
+        484,
+        271,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_4.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        102,
+        484,
+        237,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_5.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        102,
+        484,
+        237,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_6.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.11:1)",
+      "bounds": [
+        68,
+        647,
+        271,
+        736
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/tv_name']",
+      "resource_id": "net.one97.paytm:id/tv_name",
+      "contrast": 1.11,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_7.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        355,
+        484,
+        558,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_8.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        389,
+        484,
+        524,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_9.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        389,
+        484,
+        524,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_10.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.12:1)",
+      "bounds": [
+        355,
+        647,
+        558,
+        736
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/tv_name']",
+      "resource_id": "net.one97.paytm:id/tv_name",
+      "contrast": 1.12,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_11.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        642,
+        484,
+        845,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_12.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        676,
+        484,
+        811,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_13.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        676,
+        484,
+        811,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_14.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.09:1)",
+      "bounds": [
+        642,
+        647,
+        845,
+        736
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/tv_name']",
+      "resource_id": "net.one97.paytm:id/tv_name",
+      "contrast": 1.09,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_15.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        929,
+        484,
+        1057,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_16.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        963,
+        484,
+        1057,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_17.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        963,
+        484,
+        1057,
+        619
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/image1']",
+      "resource_id": "net.one97.paytm:id/image1",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_18.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.12:1)",
+      "bounds": [
+        929,
+        647,
+        1057,
+        736
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/tv_name']",
+      "resource_id": "net.one97.paytm:id/tv_name",
+      "contrast": 1.12,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_19.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.2:1)",
+      "bounds": [
+        68,
+        892,
+        989,
+        963
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/quick_money']",
+      "resource_id": "net.one97.paytm:id/quick_money",
+      "contrast": 1.2,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_20.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        45,
+        1014,
+        272,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_21.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        1014,
+        272,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_22.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.1:1)",
+      "bounds": [
+        62,
+        1212,
+        255,
+        1294
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.1,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_23.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        300,
+        1014,
+        526,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_24.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        300,
+        1015,
+        526,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_25.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        300,
+        1015,
+        526,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_26.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.12:1)",
+      "bounds": [
+        317,
+        1212,
+        509,
+        1294
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.12,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_27.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        554,
+        1014,
+        781,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_28.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        554,
+        1014,
+        781,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_29.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.15:1)",
+      "bounds": [
+        571,
+        1212,
+        764,
+        1294
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.15,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_30.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        809,
+        1014,
+        1035,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_31.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        809,
+        1015,
+        1035,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_32.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        809,
+        1015,
+        1035,
+        1333
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_33.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.18:1)",
+      "bounds": [
+        826,
+        1212,
+        1018,
+        1294
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.18,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_34.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        45,
+        1367,
+        272,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_35.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        1367,
+        272,
+        1686
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_36.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.15:1)",
+      "bounds": [
+        62,
+        1565,
+        255,
+        1647
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.15,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_37.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        300,
+        1367,
+        526,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_38.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        300,
+        1368,
+        526,
+        1686
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_39.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        300,
+        1368,
+        526,
+        1686
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_40.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.2:1)",
+      "bounds": [
+        317,
+        1565,
+        509,
+        1647
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.2,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_41.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        554,
+        1367,
+        781,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_42.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        554,
+        1367,
+        781,
+        1686
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_43.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.2:1)",
+      "bounds": [
+        571,
+        1565,
+        764,
+        1647
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.2,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_44.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.18:1)",
+      "bounds": [
+        68,
+        1837,
+        989,
+        1908
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/quick_money']",
+      "resource_id": "net.one97.paytm:id/quick_money",
+      "contrast": 1.18,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_45.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        45,
+        1959,
+        272,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_46.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        1959,
+        272,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_47.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.14:1)",
+      "bounds": [
+        62,
+        2157,
+        255,
+        2239
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.14,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_48.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        300,
+        1959,
+        526,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_49.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        300,
+        1960,
+        526,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_50.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        300,
+        1960,
+        526,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_51.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (2.5:1)",
+      "bounds": [
+        317,
+        2157,
+        509,
+        2239
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 2.5,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_52.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        554,
+        1959,
+        781,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_53.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        554,
+        1959,
+        781,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_54.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (2.5:1)",
+      "bounds": [
+        571,
+        2157,
+        764,
+        2239
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 2.5,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_55.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        809,
+        1959,
+        1035,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_56.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        809,
+        1960,
+        1035,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_57.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        809,
+        1960,
+        1035,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_58.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.14:1)",
+      "bounds": [
+        826,
+        2157,
+        1018,
+        2239
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/categoryTitle']",
+      "resource_id": "net.one97.paytm:id/categoryTitle",
+      "contrast": 1.14,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_59.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        391,
+        2122,
+        447,
+        2178
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/scan_icon']",
+      "resource_id": "net.one97.paytm:id/scan_icon",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_60.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (2.61:1)",
+      "bounds": [
+        470,
+        2112,
+        689,
+        2188
+      ],
+      "xpath": "//TextView[@resource-id='net.one97.paytm:id/scan_any_text']",
+      "resource_id": "net.one97.paytm:id/scan_any_text",
+      "contrast": 2.61,
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_61.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.LinearLayout overlaps android.widget.ImageView",
+      "bounds": [
+        68,
+        484,
+        271,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_62.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.LinearLayout overlaps android.widget.ImageView",
+      "bounds": [
+        355,
+        484,
+        558,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_63.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.LinearLayout overlaps android.widget.ImageView",
+      "bounds": [
+        642,
+        484,
+        845,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_64.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.LinearLayout overlaps android.widget.ImageView",
+      "bounds": [
+        929,
+        484,
+        1057,
+        736
+      ],
+      "xpath": "//LinearLayout[@resource-id='net.one97.paytm:id/acc_carousel_4_container']",
+      "resource_id": "net.one97.paytm:id/acc_carousel_4_container",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_65.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        45,
+        1014,
+        272,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_66.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        300,
+        1014,
+        526,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_67.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        554,
+        1014,
+        781,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_68.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        809,
+        1014,
+        1035,
+        1333
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_69.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        45,
+        1367,
+        272,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_70.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        300,
+        1367,
+        526,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_71.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        554,
+        1367,
+        781,
+        1686
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_72.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        45,
+        1959,
+        272,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_73.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        300,
+        1959,
+        526,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_74.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.ImageView overlaps android.widget.LinearLayout",
+      "bounds": [
+        300,
+        1960,
+        526,
+        2273
+      ],
+      "xpath": "//ImageView[@resource-id='net.one97.paytm:id/groupImageView']",
+      "resource_id": "net.one97.paytm:id/groupImageView",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_75.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        554,
+        1959,
+        781,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_76.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.ImageView",
+      "bounds": [
+        809,
+        1959,
+        1035,
+        2273
+      ],
+      "xpath": "//ViewGroup[@resource-id='net.one97.paytm:id/acc_cl_parent']",
+      "resource_id": "net.one97.paytm:id/acc_cl_parent",
+      "element_screenshot": "screenshots\\screenshot_20251008_120806_element_77.png"
+    }
+  ],
+  "timestamp": "2025-10-08T12:08:13.647908"
+}

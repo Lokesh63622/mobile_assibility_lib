@@ -1,0 +1,334 @@
+{
+  "issues": [
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        35,
+        140,
+        154,
+        259
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 385x57px",
+      "bounds": [
+        161,
+        170,
+        546,
+        227
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 686x63px",
+      "bounds": [
+        99,
+        404,
+        785,
+        467
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 58x63px",
+      "bounds": [
+        99,
+        404,
+        157,
+        467
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 130x97px",
+      "bounds": [
+        851,
+        388,
+        981,
+        485
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 130x97px",
+      "bounds": [
+        851,
+        388,
+        981,
+        485
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        580,
+        1080,
+        691
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 346x14px",
+      "bounds": [
+        70,
+        580,
+        416,
+        594
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 783x56px",
+      "bounds": [
+        70,
+        594,
+        853,
+        650
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        691,
+        1080,
+        890
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 519x62px",
+      "bounds": [
+        70,
+        731,
+        589,
+        793
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 467x56px",
+      "bounds": [
+        70,
+        793,
+        537,
+        849
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        890,
+        1080,
+        1097
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 561x63px",
+      "bounds": [
+        70,
+        934,
+        631,
+        997
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 647x56px",
+      "bounds": [
+        70,
+        997,
+        717,
+        1053
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 120x97px",
+      "bounds": [
+        890,
+        945,
+        1010,
+        1042
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 120x97px",
+      "bounds": [
+        890,
+        945,
+        1010,
+        1042
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        1097,
+        1080,
+        1296
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 240x62px",
+      "bounds": [
+        70,
+        1137,
+        310,
+        1199
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 699x56px",
+      "bounds": [
+        70,
+        1199,
+        769,
+        1255
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        1296,
+        1080,
+        1495
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 460x60px",
+      "bounds": [
+        70,
+        1365,
+        530,
+        1425
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        1495,
+        1080,
+        1694
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 596x60px",
+      "bounds": [
+        70,
+        1564,
+        666,
+        1624
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        1694,
+        1080,
+        1893
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 415x62px",
+      "bounds": [
+        70,
+        1734,
+        485,
+        1796
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 240x56px",
+      "bounds": [
+        70,
+        1796,
+        310,
+        1852
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 936x4px",
+      "bounds": [
+        72,
+        1921,
+        1008,
+        1925
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 180x47px",
+      "bounds": [
+        70,
+        1993,
+        250,
+        2040
+      ]
+    },
+    {
+      "rule": "missing-label",
+      "message": "Clickable element has no label",
+      "bounds": [
+        0,
+        2071,
+        1080,
+        2326
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 318x63px",
+      "bounds": [
+        70,
+        2115,
+        388,
+        2178
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 120x97px",
+      "bounds": [
+        890,
+        2150,
+        1010,
+        2247
+      ]
+    },
+    {
+      "rule": "small-touch-target",
+      "message": "Element too small: 120x97px",
+      "bounds": [
+        890,
+        2150,
+        1010,
+        2247
+      ]
+    }
+  ]
+}
