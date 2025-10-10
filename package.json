@@ -6,7 +6,6 @@
   "scripts": {
     "test:sample": "node test-sample.js",
     "report": "node generate-report.js",
-
     "build": "esbuild index.js --bundle --platform=node --format=esm --outfile=dist/index.js --external:xml2js --external:events --external:fs --external:path"
   },
   "dependencies": {
