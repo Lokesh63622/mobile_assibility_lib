@@ -1,0 +1,1177 @@
+{
+  "summary": {
+    "critical": 43,
+    "high": 20,
+    "medium": 19,
+    "low": 0
+  },
+  "audit_score": 55,
+  "issues": [
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        0,
+        70,
+        1080,
+        2273
+      ],
+      "xpath": "//FrameLayout[@resource-id='com.snapdeal.main:id/fl_root']",
+      "resource_id": "com.snapdeal.main:id/fl_root",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_1.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        70,
+        1080,
+        227
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_2.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        227,
+        1080,
+        232
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_3.png"
+    },
+    {
+      "rule": "small-touch-target",
+      "priority": "high",
+      "message": "android.view.ViewGroup touch target too small 1080x5px (minimum 48x48px)",
+      "bounds": [
+        0,
+        227,
+        1080,
+        232
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_4.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        0,
+        232,
+        1080,
+        460
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_5.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.View clickable element has no label",
+      "bounds": [
+        1010,
+        232,
+        1080,
+        269
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[3]/node/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_6.png"
+    },
+    {
+      "rule": "small-touch-target",
+      "priority": "high",
+      "message": "android.view.View touch target too small 70x37px (minimum 48x48px)",
+      "bounds": [
+        1010,
+        232,
+        1080,
+        269
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[3]/node/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_7.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        277,
+        180,
+        412
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/userPic']",
+      "resource_id": "com.snapdeal.main:id/userPic",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_8.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.LinearLayout clickable element has no label",
+      "bounds": [
+        214,
+        288,
+        1035,
+        404
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[3]/node/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_9.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (2.13:1)",
+      "bounds": [
+        495,
+        319,
+        753,
+        373
+      ],
+      "xpath": "//TextView[@text='Login/Sign up']",
+      "resource_id": "",
+      "contrast": 2.13,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_10.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (2.48:1)",
+      "bounds": [
+        557,
+        323,
+        1035,
+        369
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/userEmail']",
+      "resource_id": "com.snapdeal.main:id/userEmail",
+      "contrast": 2.48,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_11.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageView clickable element has no label",
+      "bounds": [
+        0,
+        460,
+        1080,
+        803
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_12.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        0,
+        460,
+        1080,
+        803
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_13.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        803,
+        1080,
+        992
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[5]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_14.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        864,
+        113,
+        932
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[5]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_15.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.19:1)",
+      "bounds": [
+        141,
+        837,
+        357,
+        899
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/title']",
+      "resource_id": "com.snapdeal.main:id/title",
+      "contrast": 1.19,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_16.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.04:1)",
+      "bounds": [
+        141,
+        910,
+        979,
+        958
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/subTitle']",
+      "resource_id": "com.snapdeal.main:id/subTitle",
+      "contrast": 1.04,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_17.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        979,
+        868,
+        1035,
+        927
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/right_arrow']",
+      "resource_id": "com.snapdeal.main:id/right_arrow",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_18.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        992,
+        1080,
+        1181
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[6]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_19.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        1053,
+        113,
+        1121
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[6]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_20.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.2:1)",
+      "bounds": [
+        141,
+        1026,
+        529,
+        1088
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/title']",
+      "resource_id": "com.snapdeal.main:id/title",
+      "contrast": 1.2,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_21.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.06:1)",
+      "bounds": [
+        141,
+        1099,
+        979,
+        1147
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/subTitle']",
+      "resource_id": "com.snapdeal.main:id/subTitle",
+      "contrast": 1.06,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_22.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        979,
+        1057,
+        1035,
+        1116
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/right_arrow']",
+      "resource_id": "com.snapdeal.main:id/right_arrow",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_23.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        1181,
+        1080,
+        1370
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[7]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_24.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        45,
+        1242,
+        113,
+        1310
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[7]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_25.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.19:1)",
+      "bounds": [
+        141,
+        1215,
+        396,
+        1277
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/title']",
+      "resource_id": "com.snapdeal.main:id/title",
+      "contrast": 1.19,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_26.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.03:1)",
+      "bounds": [
+        141,
+        1288,
+        979,
+        1336
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/subTitle']",
+      "resource_id": "com.snapdeal.main:id/subTitle",
+      "contrast": 1.03,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_27.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        979,
+        1246,
+        1035,
+        1305
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/right_arrow']",
+      "resource_id": "com.snapdeal.main:id/right_arrow",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_28.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        1370,
+        1080,
+        1392
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[8]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_29.png"
+    },
+    {
+      "rule": "small-touch-target",
+      "priority": "high",
+      "message": "android.view.ViewGroup touch target too small 1080x22px (minimum 48x48px)",
+      "bounds": [
+        0,
+        1370,
+        1080,
+        1392
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[8]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_30.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        1392,
+        1080,
+        1496
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[9]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_31.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        53,
+        1440,
+        109,
+        1496
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[9]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_32.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.04:1)",
+      "bounds": [
+        141,
+        1440,
+        979,
+        1494
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/title']",
+      "resource_id": "com.snapdeal.main:id/title",
+      "contrast": 1.04,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_33.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        979,
+        1437,
+        1035,
+        1493
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/imageView6']",
+      "resource_id": "com.snapdeal.main:id/imageView6",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_34.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        1496,
+        1080,
+        1823
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_35.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.11:1)",
+      "bounds": [
+        431,
+        1564,
+        649,
+        1618
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/title']",
+      "resource_id": "com.snapdeal.main:id/title",
+      "contrast": 1.11,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_36.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        170,
+        1663,
+        318,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_37.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        198,
+        1663,
+        290,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[1]/node",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_38.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        318,
+        1663,
+        466,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_39.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        346,
+        1663,
+        438,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[2]/node",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_40.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        466,
+        1663,
+        614,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_41.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        494,
+        1663,
+        586,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[3]/node",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_42.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        614,
+        1663,
+        762,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_43.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        642,
+        1663,
+        734,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[4]/node",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_44.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        762,
+        1663,
+        910,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[5]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_45.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        790,
+        1663,
+        882,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[5]/node",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_46.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.view.ViewGroup clickable element has no label",
+      "bounds": [
+        0,
+        1823,
+        1080,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[11]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_47.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.ImageButton text has low color contrast (1.1:1)",
+      "bounds": [
+        0,
+        70,
+        91,
+        228
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[3]/node/node[1]",
+      "resource_id": "",
+      "contrast": 1.1,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_48.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.ImageButton clickable element has no label",
+      "bounds": [
+        0,
+        70,
+        91,
+        228
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[3]/node/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_49.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.16:1)",
+      "bounds": [
+        91,
+        118,
+        376,
+        180
+      ],
+      "xpath": "//TextView[@text='My Account']",
+      "resource_id": "",
+      "contrast": 1.16,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_50.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        0,
+        2115,
+        270,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_51.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        101,
+        2136,
+        169,
+        2204
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/iv_tabIcon1']",
+      "resource_id": "com.snapdeal.main:id/iv_tabIcon1",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_52.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.1:1)",
+      "bounds": [
+        89,
+        2201,
+        181,
+        2249
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/tv_titleText']",
+      "resource_id": "com.snapdeal.main:id/tv_titleText",
+      "contrast": 1.1,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_53.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        270,
+        2115,
+        540,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_54.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        371,
+        2136,
+        439,
+        2204
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/iv_tabIcon1']",
+      "resource_id": "com.snapdeal.main:id/iv_tabIcon1",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_55.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.11:1)",
+      "bounds": [
+        331,
+        2201,
+        478,
+        2249
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/tv_titleText']",
+      "resource_id": "com.snapdeal.main:id/tv_titleText",
+      "contrast": 1.11,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_56.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        540,
+        2115,
+        810,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_57.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        641,
+        2136,
+        709,
+        2204
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/iv_tabIcon1']",
+      "resource_id": "com.snapdeal.main:id/iv_tabIcon1",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_58.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.1:1)",
+      "bounds": [
+        613,
+        2201,
+        736,
+        2249
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/tv_titleText']",
+      "resource_id": "com.snapdeal.main:id/tv_titleText",
+      "contrast": 1.1,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_59.png"
+    },
+    {
+      "rule": "missing-label",
+      "priority": "critical",
+      "message": "android.widget.FrameLayout clickable element has no label",
+      "bounds": [
+        810,
+        2115,
+        1080,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_60.png"
+    },
+    {
+      "rule": "image-no-alt",
+      "priority": "critical",
+      "message": "android.widget.ImageView Image missing description",
+      "bounds": [
+        911,
+        2136,
+        979,
+        2204
+      ],
+      "xpath": "//ImageView[@resource-id='com.snapdeal.main:id/iv_tabIcon2']",
+      "resource_id": "com.snapdeal.main:id/iv_tabIcon2",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_61.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.13:1)",
+      "bounds": [
+        892,
+        2201,
+        998,
+        2249
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/tv_titleText']",
+      "resource_id": "com.snapdeal.main:id/tv_titleText",
+      "contrast": 1.13,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_62.png"
+    },
+    {
+      "rule": "low-color-contrast",
+      "priority": "high",
+      "message": "android.widget.TextView text has low color contrast (1.0:1)",
+      "bounds": [
+        1032,
+        1751,
+        1035,
+        1754
+      ],
+      "xpath": "//TextView[@resource-id='com.snapdeal.main:id/fakeView']",
+      "resource_id": "com.snapdeal.main:id/fakeView",
+      "contrast": 1.0,
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_63.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        0,
+        70,
+        1080,
+        2273
+      ],
+      "xpath": "//FrameLayout[@resource-id='com.snapdeal.main:id/fl_root']",
+      "resource_id": "com.snapdeal.main:id/fl_root",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_64.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        70,
+        1080,
+        227
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_65.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.LinearLayout",
+      "bounds": [
+        0,
+        227,
+        1080,
+        232
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_66.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.LinearLayout overlaps android.view.View",
+      "bounds": [
+        0,
+        232,
+        1080,
+        460
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_67.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.ImageView overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        460,
+        1080,
+        803
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_68.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        803,
+        1080,
+        992
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[5]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_69.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        992,
+        1080,
+        1181
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[6]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_70.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        1181,
+        1080,
+        1370
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[7]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_71.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        1370,
+        1080,
+        1392
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[8]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_72.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.view.ViewGroup",
+      "bounds": [
+        0,
+        1392,
+        1080,
+        1496
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[9]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_73.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1496,
+        1080,
+        1823
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_74.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        170,
+        1663,
+        318,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_75.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        318,
+        1663,
+        466,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_76.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        466,
+        1663,
+        614,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_77.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        614,
+        1663,
+        762,
+        1755
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[10]/node[2]/node[4]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_78.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.view.ViewGroup overlaps android.widget.FrameLayout",
+      "bounds": [
+        0,
+        1823,
+        1080,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[1]/node/node[2]/node[11]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_79.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        0,
+        2115,
+        270,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[1]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_80.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        270,
+        2115,
+        540,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[2]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_81.png"
+    },
+    {
+      "rule": "overlapping-elements",
+      "priority": "medium",
+      "message": "android.widget.FrameLayout overlaps android.widget.FrameLayout",
+      "bounds": [
+        540,
+        2115,
+        810,
+        2273
+      ],
+      "xpath": "/hierarchy/node/node[1]/node/node/node/node/node[1]/node/node[2]/node/node[3]/node[3]",
+      "resource_id": "",
+      "element_screenshot": "screenshots\\screenshot_20251010_152446_element_82.png"
+    }
+  ],
+  "timestamp": "2025-10-10T15:24:59.705147"
+}
